@@ -16,7 +16,6 @@
   --second-backup-color: #5f1a37 /* Tyrian Purple*/
 }
 
-/* Desktop Styling DO I NEED??*/
 body {
     display: flexbox;
     background-color: var(--bg-primary); /*Alice Blue*/
@@ -69,7 +68,11 @@ body {
     font-size: 16px;
     margin-right: 50px;
 }
-/* END NAVBAR EDITING */
+
+.navbar ul li a:hover {
+      color: var(--backup-color); /*Changes to a hover background color*/
+      transform: scale(1.05);
+}
 
 .heading {
     color: var(--backup-color);
@@ -116,6 +119,11 @@ body {
   cursor: pointer; /* Pointer cursor*/
   margin: 10px 0 20px;
   border-radius: 6px;
+}
+
+.info button:hover {
+      background-color: var(--backup-color); /*Changes to a hover background color*/
+      transform: scale(1.05);
 }
 
 .fav-book .info button a {
@@ -167,6 +175,11 @@ body {
   cursor: pointer; /* Pointer cursor*/
   margin: 10px 0 20px;
   border-radius: 6px;
+}
+
+.fav-song button:hover {
+      background-color: var(--backup-color); /*Changes to a hover background color*/
+      transform: scale(1.05);
 }
 
 .fav-song button a {

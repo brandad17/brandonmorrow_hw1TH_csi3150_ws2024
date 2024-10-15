@@ -16,7 +16,6 @@
   --second-backup-color: #5f1a37 /* Tyrian Purple*/
 }
 
-/* Desktop Styling DO I NEED??*/
 body {
       display: flexbox;
       background-color: var(--bg-primary); /*Alice Blue*/
@@ -42,9 +41,9 @@ body {
 .navbar h2 {
       color: var(--font-color-primary);
       text-decoration: none;
+      align-items: flex-start;
       justify-content: flex-start;
-      margin-left: 50px; 
-      margin-right: 877px;
+      margin-right: 925px;
 }
 
 /* Style the children of the header */
@@ -68,6 +67,11 @@ body {
       -webkit-text-stroke: .3px var(--backup-color);
       font-size: 16px;
       margin-right: 50px;
+}
+
+.navbar ul li a:hover {
+      color: var(--backup-color); /*Changes to a hover background color*/
+      transform: scale(1.05);
 }
 
 .about {
@@ -124,12 +128,19 @@ body {
 
 .info button {
       background-color: var(--bg-secondary);
+      cursor: pointer; /* Pointer cursor*/
       border: none; /* Remove border */
       color: var(--bg-primary); /* Button text color */
       padding: 15px 30px; /* Button padding */
       font-size: 16px; /* Button font size */
       cursor: pointer; /* Pointer cursor */
       margin: 10px 0; /* Space between buttons */
+      border-radius: 6px;
+}
+
+.info button:hover {
+      background-color: var(--font-color-primary); /*Changes to a hover background color*/
+      transform: scale(1.05);
 }
 
 .info button a {

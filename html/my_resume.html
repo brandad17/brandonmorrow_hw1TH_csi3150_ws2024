@@ -1,48 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Brandon's Resume</title>
-    <link rel="icon" type="image/x-icon" href="/assets/img/glasses-favicon.png">
-  </head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Brandon's Resume</title>
+      <link rel="icon" type="image/x-icon" href="/assets/img/glasses-favicon.png">
+      <link rel="stylesheet" href="/css/style-sheet-resume.css">
+    </head>
   <body>
-
+    <header class="navbar">
     <!--Navigation Bar-->
-    <nav>
-      <ul>
-        <!--Reference different HTML pages-->
-        <li><a href="/index.html">Home</a></li>
-        <li><a href="/html/my_fun_facts.html">About</a></li>
-        <li><a href="#">Resume</a></li>
-      </ul>
-    </nav>
-    <hr>
+      <nav>
+        <ul>
+          <h2>Brandon Morrow</h2>
+          <!--Reference different HTML pages-->
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="/html/my_fun_facts.html">About</a></li>
+          <li><a href="#">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <div>
+    <div class="heading">
       <!--Heading for Resume Page-->
-      <h1>Brandon Morrow - Resume</h1>
-
-      <h3>Contact me:</h3>
-      <p>123 Human St., Lake Orion, MI 48362</p>
-      <p>bmmorrow@oakland.edu</p>
-      <p>(248)555-5555</p>
-      <hr>
+      <div class="heading-title">
+        <h1>Resume</h1>
+      </div>
+      <div class="heading-contact">
+        <h3>Contact me:</h3>
+        <div class="heading-info">
+          <p>123 Human St., Lake Orion, MI 48362</p>
+          <p>bmmorrow@oakland.edu</p>
+          <p>(248)555-5555</p>
+        </div>
+      </div>
     </div>
 
     <!--Objective-->
-    <div>
-        <div>
+    <div class="job-experience">
+        <div class="objective">
             <h2>Objective</h2>
             <p>Seeking professional development in the areas of Front-End Web Design, Networking, and System Administration at Entrega Systems Group in Troy, MI
             </p>
         </div>
 
         <!--Professsional Experience Section-->
-        <div>
+        <div class="professional-experience">
             <h2>Professional Experience</h2>
             <!--Most recent job-->
-            <div>
+            <div class="experience-entrega">
                 <h4>
                     Jul. 2024 - Present, Technical Solutions Support Specialist, Entrega Solutions Group, <br>
                     900 Wilshire Dr. Suite 205, Troy, MI 48084</h4>
@@ -52,7 +58,7 @@
             </div>
             
             <!--Second most recent job at OU Help Desk-->
-            <div>
+            <div class="experience-oakland">
                 <h4>
                     May 2024 - Jul. 2024, Help Desk Associate, Oakland University, <br>
                     100 Library Dr., Rochester, MI 48309</h4>
@@ -62,7 +68,7 @@
             </div>
 
             <!--Third most recent job at Home Depot-->
-            <div>
+            <div class="experience-home-depot">
                 <h4>
                     Jun. 2023 - Jul. 2024, Lumber Associate, The Home Depot, <br>
                     225 W. Avon Rd., Rochester Hills, MI 48307</h4>
@@ -74,53 +80,53 @@
     </div>
 
     <!--Educational Experiences Section-->
-    <div>
-        <hr>
+    <div class="education">
         <h2>Educational Experiences</h2>
         <!--Set table-->
-        <table border="1">
-            <!--Set table heading columns-->
-            <thead>
-              <tr>
-                <th>Start--End</th>
-                <th>Degree</th>
-              </tr>
-            </thead>
-            <!--Set entries in table-->
-            <tbody>
-              <tr>
-                <td>2023-2025</td>
-                <td>B.S. in Information Technology, Oakland University, Rochester Hills, MI</td>
-              </tr>  
-              <tr>
-                <td>2017-2020</td>
-                <td>Associate's in Arts, Oakland Community College, Auburn Hills, MI</td>
-              </tr>
-              <tr>
-                <td>2013-2017</td>
-                <td>High School Diploma, Lake Orion High School, Lake Orion, MI</td>
-              </tr>
-            </tbody>
-        </table>
-        <br>
-        <hr>
+        <div class="table">
+          <table border="5">
+              <!--Set table heading columns-->
+              <thead>
+                <tr>
+                  <th>Start-End</th>
+                  <th>Degree</th>
+                </tr>
+              </thead>
+              <!--Set entries in table-->
+              <tbody>
+                <tr>
+                  <td>2023-2025</td>
+                  <td>B.S. in Information Technology, Oakland University, Rochester Hills, MI</td>
+                </tr>  
+                <tr>
+                  <td>2017-2020</td>
+                  <td>Associate's in Arts, Oakland Community College, Auburn Hills, MI</td>
+                </tr>
+                <tr>
+                  <td>2013-2017</td>
+                  <td>High School Diploma, Lake Orion High School, Lake Orion, MI</td>
+                </tr>
+              </tbody>
+          </table>
+        </div>
     </div>
 
     <!--Extracurricular Interests and Hobbies Section-->
-    <div>
+    <div class="extracurricular">
         <h2>Extracurricular Interests and Hobbies</h2>
-        <p>As much as I enjoy developing my skills in Networking and working toward my IT certifications, I equally enjoy being active, going on walks with my family, playing beach volleyball with friends, and watching the Lions every week.</p>
+        <p>I love spending time at church worshipping the one true Lord, Jesus Christ, using his influence to better my family's lives.</p>
     </div>
 
+    <hr>
+
     <!--Copyright information-->
-    <div>
-      <hr>
+    <footer>
       <p>© 2024 Brandon Morrow. All rights reserved.</p>
       <p>
         Follow me on
         <a href="https://www.linkedin.com/in/brandon-m-morrow" target="_blank">LinkedIn</a> 
         or email me at bmmorrow@oakland.edu
       </p>
-    </div>
-<!--10/5/24 at 8:45pm-->
+    </footer>
   </body>
+</html>
